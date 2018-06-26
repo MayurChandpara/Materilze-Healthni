@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
+.card i {
+  font-size: 4rem;
+}
+
+/* Newsletter Styling*/
+
+.newsletter {
+  display: flex;
+}
+
+.newsletter .input-field {
+  width: 60%;
+  display: flex;
+}
+
+.newsletter h6 {
+  width: 30%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.newsletter .blank {
+  width: 25%;
+}
+
+.newsletter .input-field input {
+  width: 70%;
+}
+
+.newsletter .input-field button {
+  width: 30%;
+}
